@@ -20,10 +20,19 @@ Here are some ideas to get you started:
 
 ![Achievenemtts](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.achievements.svg)
 
+![Activity](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.activity.svg)
+
 ![Code](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.code.svg)
 
 ![Habits](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.habits.svg)
 
 ![Languages](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.languages.svg)
 
-![Activity](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.activity.svg)
+![Notable](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.notable.svg)
+
+![People](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.people.svg)
+
+![Reactions](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.reactions.svg)
+
+![stackoverflow](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.stackoverflow.svg)
+
