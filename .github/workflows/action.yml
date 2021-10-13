@@ -94,10 +94,11 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_limit: 4
+          plugin_languages_indepth: yes  
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
           delay: 120
-          
+          commits_authoring: athul.m68@gmail.com
       # ======================================================================================
       # 🎩 Notable contributions
 
@@ -154,7 +155,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 1
+          plugin_stackoverflow_user: 8689681
           plugin_stackoverflow_sections: answers-top
           plugin_stackoverflow_limit: 2
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
