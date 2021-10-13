@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 <!--  https://github.com/lowlighter/metrics -->
-![Metrics](https://github.com/my-github-user/my-github-user/blob/main/github-metrics.svg)
+![Metrics](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/github-metrics.svg)
