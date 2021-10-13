@@ -97,22 +97,4 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
           delay: 120
-      
-      # ======================================================================================
-      # 📜 Licenses
-
-      - name: 📜 Licenses and permissions
-        uses: lowlighter/metrics@master
-        if: ${{ success() || failure() }}
-        with:
-          filename: metrics.plugin.licenses.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          template: repository
-          repo: metrics
-          plugin_licenses: yes
-          plugin_licenses_setup: npm ci
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 120
-
+          
