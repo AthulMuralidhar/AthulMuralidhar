@@ -1,7 +1,11 @@
-name: Readme generator
+name: Greeting from Mona
+
 on: push
 
 jobs:
   my-job:
-  - name: Metrics embed
-    uses: lowlighter/metrics@v3.14
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+    - name: Metrics embed
+      uses: lowlighter/metrics@v3.14
