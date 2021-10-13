@@ -17,3 +17,13 @@ Here are some ideas to get you started:
 
 <!--  https://github.com/lowlighter/metrics -->
 ![Metrics](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/github-metrics.svg)
+
+![Achievenemtts](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.achievements.svg)
+
+![Code](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.code.svg)
+
+![Habits](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.habits.svg)
+
+![Languages](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.languages.svg)
+
+![Activity](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.activity.svg)
