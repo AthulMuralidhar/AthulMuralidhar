@@ -1,4 +1,7 @@
-- name: Metrics embed
-  # You may pin to the exact commit or the version.
-  # uses: lowlighter/metrics@03146c097db11245c4e33bafeb0c12110b62f3c1
-  uses: lowlighter/metrics@v3.14
+name: Readme generator
+on: push
+
+jobs:
+  my-job:
+  - name: Metrics embed
+    uses: lowlighter/metrics@v3.14
