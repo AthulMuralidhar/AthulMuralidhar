@@ -34,5 +34,5 @@ Here are some ideas to get you started:
 
 ![Reactions](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.reactions.svg)
 
-<!-- ![stackoverflow](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.stackoverflow.svg) -->
+![stackoverflow](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.stackoverflow.svg)
 
