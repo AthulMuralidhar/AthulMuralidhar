@@ -50,17 +50,19 @@ jobs:
           output_action: pull-request
           delay: 120
         
-     # ======================================================================================
-    # ♐ Code snippet of the day
-
-      - name: ♐ Code snippet of the day
+   # ======================================================================================
+    # 📌 Starred topics
+    
+      - name: 📌 Starred topics (icons)
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: metrics.plugin.code.svg
+          filename: metrics.plugin.topics.mastered.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_code: yes
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: mastered
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
           delay: 120
@@ -95,8 +97,8 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
           delay: 120
-          commits_authoring: athul.m68@gmail.com
-          plugin_languages_ignored: html, css                           # List of languages to ignore
+          commits_authoring: AthulMMuralidhar@users.noreply.github.com 
+          plugin_languages_ignored: php                      # List of languages to ignore
           plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
           plugin_languages_threshold: 2%                                # Hides all languages less than 2%
           plugin_languages_limit: 8                                     # Display up to 8 languages
@@ -104,7 +106,7 @@ jobs:
           plugin_languages_categories: programming                      # Display only languages that match these categories in most-used section
           plugin_languages_recent_categories: markup, programming, data # Display only languages that match these categories in recently-used section
           plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
-          plugin_languages_recent_days: 14                               # Limit recently used stats to last week
+          plugin_languages_recent_days: 14     
 
       # ======================================================================================
       # 🎩 Notable contributions
@@ -147,6 +149,21 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          output_action: pull-request
+          delay: 120
+      # ======================================================================================
+      # 🎟️ Follow-up of issues and pull requests
+      
+      - name: 🎟️ Follow-up of issues and pull requests (user)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.followup.user.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: user
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
           delay: 120
