@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="366" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="429" class="">
     <defs>
         <style/>
     </defs>
@@ -1438,8 +1438,12 @@
                           </div>
                                     </div>
                                     <div class="body markdown">
-                        An error occurred:code.replace is not a function
-Please report this to https://github.com/markedjs/marked.
+                        You have two options here. You can:
+<code class="language-multiline">In [1]: import pandas as pd                                                                                                                                   
+
+<span class="token trimmed">(15 more lines were trimmed)</span></code>
+This I think is the most easiest, but you can also do SQL type merging with inner and outer joins, just like an SQL table. More info here: https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
+
                       </div>
                                     <div class="infos">
                                         <div>
