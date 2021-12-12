@@ -20,9 +20,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="220.8661177099185" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="220.8661177099185" y="0" width="156.43465265918212" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="377.30077036910063" y="0" width="82.69922963089938" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="220.90609942071075" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="220.90609942071075" y="0" width="156.40849774972048" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="377.3145971704312" y="0" width="82.68540282956877" height="8" fill="#DA5B0B"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -35,7 +35,7 @@
                             </div>
                             <small>
                                 <div>5.27 MB</div>
-                                <div>48.01%</div>
+                                <div>48.02%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -61,7 +61,7 @@
                             </div>
                             <small>
                                 <div>3.73 MB</div>
-                                <div>34.01%</div>
+                                <div>34%</div>
                             </small>
                         </div>
                     </section>
@@ -69,7 +69,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 0 edited files from 0 commits over last 10 days</small>
+                <small>estimation from 0 edited files from 0 commits over last 12 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
