@@ -29,7 +29,7 @@ Here are some ideas to get you started:
 
 ![Habits](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.habits.svg)
 
-![Languages](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.languages.svg)
+<!-- ![Languages](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.languages.svg) -->
 
 ![Notable](https://github.com/AthulMuralidhar/AthulMuralidhar/blob/main/metrics.plugin.notable.svg)
 
