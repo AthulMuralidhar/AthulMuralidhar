@@ -98,15 +98,15 @@ jobs:
           output_action: pull-request
           delay: 120
           commits_authoring: AthulMMuralidhar@users.noreply.github.com 
-          plugin_languages_ignored: php                      # List of languages to ignore
+#           plugin_languages_ignored: php                      # List of languages to ignore
           plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
-          plugin_languages_threshold: 2%                                # Hides all languages less than 2%
-          plugin_languages_limit: 8                                     # Display up to 8 languages
+#           plugin_languages_threshold: 2%                                # Hides all languages less than 2%
+          plugin_languages_limit: 10                                     # Display up to 8 languages
           plugin_languages_sections: most-used, recently-used           # Display most used and recently used languages stats                              # Get indepth stats (see documentation before enabling)
           plugin_languages_categories: programming                      # Display only languages that match these categories in most-used section
           plugin_languages_recent_categories: markup, programming, data # Display only languages that match these categories in recently-used section
-          plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
-          plugin_languages_recent_days: 14     
+          plugin_languages_recent_load: 1000                             # Load up to 500 events to compute recently used stats
+          plugin_languages_recent_days: 7     
 
       # ======================================================================================
       # 🎩 Notable contributions
